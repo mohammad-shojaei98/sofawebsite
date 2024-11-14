@@ -1,0 +1,157 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "wmMNwaiAXtvy8CTnCEVgny",
+      "projectApiToken": "ktp4iqK5ycNQ2kkwZ4U2BqRr73RKwROHSL4H5vZFTHcKDtXKCNroiOiKmortbr5pOprQ15jubH0FXfNPA",
+      "projectName": "sofa",
+      "version": "latest",
+      "cssFilePath": "plasmic/sofa/plasmic.module.css",
+      "components": [
+        {
+          "id": "aor5HAE43dpw",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "wmMNwaiAXtvy8CTnCEVgny",
+          "renderModuleFilePath": "plasmic/sofa/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/sofa/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "UuOts2M_rB8T",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "wmMNwaiAXtvy8CTnCEVgny",
+          "renderModuleFilePath": "plasmic/sofa/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/sofa/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "2pKKmez1EHDZ",
+          "name": "CheckSvgIcon",
+          "moduleFilePath": "plasmic/sofa/icons/PlasmicIcon__CheckSvg.tsx"
+        },
+        {
+          "id": "ZESnzX4ycVmA",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/sofa/icons/PlasmicIcon__Icon.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "uEN1UGepeprL",
+          "name": "6.jpg",
+          "filePath": "plasmic/sofa/images/_6Jpg.jpg"
+        },
+        {
+          "id": "QXgxDACQM_5S",
+          "name": "lamp.jpg",
+          "filePath": "plasmic/sofa/images/lampJpg.jpg"
+        },
+        {
+          "id": "RkVco0WCptlX",
+          "name": "hang.jpg",
+          "filePath": "plasmic/sofa/images/hangJpg.jpg"
+        },
+        {
+          "id": "26bF3naEuby-",
+          "name": "l2.jpg",
+          "filePath": "plasmic/sofa/images/l2Jpg.jpg"
+        },
+        {
+          "id": "8XQnkt2czHX3",
+          "name": "l1.jpg",
+          "filePath": "plasmic/sofa/images/l1Jpg.jpg"
+        },
+        {
+          "id": "8tHDte3xtupr",
+          "name": "l4.jpg",
+          "filePath": "plasmic/sofa/images/l4Jpg.jpg"
+        },
+        {
+          "id": "QOSJfR5krdPK",
+          "name": "l3.jpg",
+          "filePath": "plasmic/sofa/images/l3Jpg.jpg"
+        },
+        {
+          "id": "P5ykw8wbxgBr",
+          "name": "sofa.png",
+          "filePath": "plasmic/sofa/images/sofaPng.png"
+        },
+        {
+          "id": "BZjDMUjWD-ic",
+          "name": "5.jpg",
+          "filePath": "plasmic/sofa/images/_5Jpg.jpg"
+        },
+        {
+          "id": "lMHFjLSzbRNu",
+          "name": "ch3.jpg",
+          "filePath": "plasmic/sofa/images/ch3Jpg.jpg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "OLYA2XS-wnjR",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "2EwW6sQKSYew",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "i1X-kNfrmjyH",
+        "name": "Screen",
+        "projectId": "wmMNwaiAXtvy8CTnCEVgny",
+        "contextFilePath": "plasmic/sofa/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.334",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.334/dist/plasmic.schema.json"
+}
